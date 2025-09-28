@@ -32,7 +32,9 @@
 
     /* Typography */
     --font-serif: 'Cormorant Garamond', serif;
-    --font-sans: 'Lato', sans-serif;
+    --font-sans: "Varela Round", sans-serif;
+
+
 
     /* Spacing */
     --section-padding: clamp(3rem, 8vw, 6rem);
@@ -438,6 +440,13 @@ p {
     color: var(--sage-green);
     font-weight: bold;
 }
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 /* ===== APPROACH SECTION ===== */
 .approach {
